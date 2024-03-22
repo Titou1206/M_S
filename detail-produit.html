@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Libelle du produit chez M’S - Détails & Caractéristiques</title>
+    <meta name="description" content="Découvrez les caractéristiques de libelle du produit chez M’S. Trouvez l'équipement parfait pour votre aventure en plein air avec notre sélection pour hommes.">  
+    <link rel="stylesheet" href="./librairies/leaflet/dist/leaflet.css">
+    <link rel="stylesheet" href="./librairies/swiper/swiper-bundle.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" type="image/ico" href="./assets/imagesSIte/favicon.png"/>
+
+</head>
+<!-- tout les liens vers des pages non intégré sont redirigé vers l'accueil dui site -->
+<body data-style="normal">
+    <!-- header -->
+    <header itemscope itemtype="https://schema.org/Organization" class="flex j-between a-center bg-dark large-12 small-12">
+        <!-- logo de l'entreprise -->
+        <a id="logo-burger" href="index.html" title="lien vers l'accueil du site" class="logo d-none"><img itemprop="logo" class="anim-picto" src="./assets/imagesSIte/logo-blanc.png" alt="logo de Men's Sportswear"></a>
+        <div class="burger d-none">
+            <span class="top"></span>
+            <span class="middle"></span>
+            <span class="bottom"></span>
+        </div>
+        <div class="menu flex j-between a-center large-12">
+            <a id="logo-header" href="index.html" title="lien vers l'accueil du site" class="logo"><img itemprop="logo" class="anim-picto" src="./assets/imagesSIte/logo-blanc.png" alt="logo de Men's Sportswear"></a>
+            <!-- barre nav du site -->
+            <nav>
+                <ul class="nav-site flex gap">
+                    <li class="li-nav"><a href="index.html" title="lien vers l'accueuil" class="li-nav fs16 fw700 c-white">Accueil</a></li>
+                    <li class="li-nav"><a href="index.html" title="lien vers la page chaussures" class="li-nav fs16 fw700 c-white">Chaussures</a></li>
+                    <li class="li-nav"><a href="index.html" title="lien vers la page vêtements" class="li-nav fs16 fw700 c-white">Vêtements</a></li>
+                    <li class="li-nav"><a href="index.html" title="lien vers la page accessoires" class="li-nav fs16 fw700 c-white">Accessoires</a></li>
+                    <li class="autdoor-nav"><a href="index.html" title="lien vers notre gamme @utdoor" class="fs16 fw700 c-white btn border-white">@utdoor</a></li>
+                </ul>
+            </nav>
+            <!-- nav panier/cpte -->
+            <nav>
+                <ul class="nav-cpte flex gap">
+                    <li><a href="index.html" title="lien vers votre panier" class="picto p-panier"><img class="anim-picto" src="./assets/imagesSIte/header-pannier.png" alt="image d'un panier"></a></li>
+                    <li><a href="index.html" title="lien vers votre compte personnel"  class="picto p-cpte"><img class="anim-picto" src="./assets/imagesSIte/header-account.png" alt="image d'une tête d'homme"></a></li>
+                    <!-- switch access -->
+                    <li><label for="switch-access">
+                        <div id="button-access" class="picto p-access anim-picto">
+                            <input type="checkbox" class="checkbox" id="switch-access" name="switch-access">
+                        </div>
+                    </label></li>
+                    <!-- switch dark/light 
+                    <li><div class="switch-mode">
+                        <label class="switch-label">
+                        <input type="checkbox" class="checkbox-mode" id="switch-mode" name="switch-mode">
+                        <span class="slider-switch"></span>
+                        </label>
+                    </div></li> -->
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <!-- main -->
+    <main class="menu-blur">
+        <!-- fil d'arianne -->
+        <section class="arianne large-11 flex">
+            <a class="c-white bg-dark btn-fil hover-back" href="index.html">Chaussures ></a>
+            <a class="bg-light c-black btn-fil hover-back" href="gamme-baskets.html">Baskets ></a>
+            <p class="bg-blue c-white btn-fil">Libelle du produit</p>
+        </section>
+        <!-- detail produit -->
+        <section class="detail large-10 medium-8 small-10 flex j-between a-center mrlauto">
+            <!-- swiper -->
+            <div class="swiper swipper-detail large-5 medium-12 small-12">
+                <!-- Awrapper -->
+                <div class="swiper-wrapper swiper-wrapper-detail large-12">
+                  <!-- Slides -->
+                  <div class="swiper-slide swiper-slide-detail large-10 basket-bleu"></div>
+                  <div class="swiper-slide swiper-slide-detail large-10 basket-rouge"></div>
+                  <div class="swiper-slide swiper-slide-detail large-10 basket-vert"></div>
+                  <div class="swiper-slide swiper-slide-detail large-10 basket-violet"></div>
+                </div>
+                <!-- navigation buttons -->
+                <div class="swiper-button-prev c-black"></div>
+                <div class="swiper-button-next c-black"></div>
+            </div>
+            <!-- descriptif  -->
+            <div class="detail-descriptif large-5 medium-12 small-12">
+                <!-- titre et prix -->
+                <div class="detail-titre flex j-between a-center mb40">
+                    <h3 class="fs28 fw700">Libellé du produit</h3>
+                    <p class="fw700 fs32 c-blue">159€</p>
+                </div>
+                <!-- description -->
+                <p class="fs16 fw400 mb16">Dernière née de la gamme, cette basket est conçue pour la course a pied sur bitume comme sur les chemins légèrement escarpés.</p>
+                <ul class="mb40">
+                    <li class="fs16 fw400">semelle : caoutchouc naturel anti dérapant</li>
+                    <li class="fs16 fw400"> bon maintien tu pied</li>
+                    <li class="fs16 fw400">Aération optimale grâce a la structure micro alvéolée de sa coque</li>
+                </ul>
+                <!-- couleur -->
+                <div class="flex j-between a-center mb16">
+                    <p class="fs18 fw700">Couleurs disponibles</p>
+                    <div class="couleur-choix gap">
+                        <div class="rond rd-bleu"></div>
+                        <div class="rond rd-rouge"></div>
+                        <div class="rond rd-vert"></div>
+                        <div class="rond rd-violet"></div>
+                    </div>
+                </div>
+                <!-- taille -->
+                <div class="flex j-between a-center mb16">
+                    <p class="fs18 fw700">Tailles disponibles</p>
+                    <select name="taille" id="taille">
+                        <option value="44">44</option>
+                        <option value="42">42</option>
+                        <option value="43">43</option>
+                        <option value="45">45</option>
+                    </select>
+                </div>
+                <!-- stock -->
+                <div class="flex j-between a-center">
+                    <p class="fs18 fw700">Nombre d’articles en stock</p>
+                    <p class="fs18 fw400">67</p>
+                </div>
+            </div>
+        </section>
+        <!-- avis conso -->
+        <section class="avis large-11 mrlauto">
+            <h4 class="fs26 fw400 mb40">Avis des consommateurs</h4>
+            <div class="container-avis">
+                <div class="avis-card flex gap mb40 a-center">
+                    <div class="photo-avis flex j-center a-center"><div></div></div>
+                    <div>
+                        <div>
+                            <div class="avis-prenom flex gap mb16">
+                                <h5 class="fs18 fw400">Nicolas</h5>
+                                <p>★★★★☆</p>
+                            </div>
+                            <p class="fs16 fw400">Ces baskets sont super, je les prends pour courrir ou même en ville pour sortir car elles sont sympa en plus et faciles a porter, je recommande grandement ce produit</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="avis-card flex gap mb40 a-center">
+                    <div class="photo-avis flex j-center a-center"><div></div></div>
+                    <div>
+                        <div>
+                            <div class="avis-prenom flex gap mb16 ">
+                                <h5 class="fs18 fw400">Nicolas</h5>
+                                <p>★★★★☆</p>
+                            </div>
+                            <p class="fs16 fw400">Ces baskets sont super, je les prends pour courrir ou même en ville pour sortir car elles sont sympa en plus et faciles a porter, je recommande grandement ce produit</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="avis-card flex gap mb40 a-center">
+                    <div class="photo-avis flex j-center a-center"><div></div></div>
+                    <div>
+                        <div>
+                            <div class="avis-prenom flex gap mb16">
+                                <h5 class="fs18 fw400">Nicolas</h5>
+                                <p>★★★★☆</p>
+                            </div>
+                            <p class="fs16 fw400">Ces baskets sont super, je les prends pour courrir ou même en ville pour sortir car elles sont sympa en plus et faciles a porter, je recommande grandement ce produit</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <!-- footer -->
+    <footer class="bg-dark mt80 menu-blur">
+        <div itemscope itemtype="https://schema.org/Organization" class="footer-container mrlauto">
+            <!-- logo + msg -->
+            <a id="logo-footer" href="index.html" title="lien vers l'accueil du site" class="logo d-block mrlauto mb16"><img itemprop="logo" class="anim-picto" src="./assets/imagesSIte/logo-blanc.png" alt="logo de Men's Sportswear"></a>
+            <p class="boutique fs16 fw700 c-white txt-center">Retrouvez nos boutiques près de chez vous</p>
+            <!-- carte -->
+            <div class="mrlauto" id="map"></div>
+            <!-- footer bas -->
+            <div class="container-infos flex j-between mt80 mb16 large-10 special-11 medium-10 small-10 mrlauto">
+                <!-- plan du site -->
+                <div class="plan-site">
+                    <h6 class="fs16 fw400 c-white mb16">Plan du site</h6>
+                    <nav>
+                        <ul>
+                            <li><a href="index.html" title="lien vers l'accueil du site" class="fs16 fw400 c-white">Accueil</a></li>
+                            <li><a href="index.html" title="lien vers la page vêtements" class="fs16 fw400 c-white">Vetements</a></li>
+                            <li><a href="index.html" title="lien vers la page chaussures" class="fs16 fw400 c-white">Chaussure</a></li>
+                            <li><a href="index.html" title="lien vers la page accessoires" class="fs16 fw400 c-white">Accessoires</a></li>
+                            <li><a href="index.html" title="lien vers la gamme @utdoor" class="fs16 fw400 c-white">@utdoor</a></li>
+                            <li><a href="index.html" title="lien vers la section contact" class="fs16 fw400 c-white">Contact</a></li>
+                        </ul>
+                    </nav>
+                </div>
+                <!-- horaires -->
+                <div itemscope itemtype="https://schema.org/OpeningHoursSpecification" class="horaires">
+                    <h6 class="fs16 fw400 c-white mb16">Horaires d’ouverture de nos boutiques</h6>
+                    <pv itemprop="opens" class="fs16 fw400 c-white">Du  lundi au vendredi de 10h à 12h30 puis de 13h30 a 19h<br>Le samedi de 9h a 18h30 non stop</p>
+                </div>
+                <!-- lien réseaux -->
+                <div class="reseaux medium-12">
+                    <h6 class="fs16 fw400 c-white mb16">Retrouvez nous sur les réseaux sociaux</h6>
+                    <nav>
+                        <ul class="flex gap medium-12">
+                            <li><a target="_blank" href="https://twitter.com/?lang=fr" title="lien vers notre page twitter- Nouvelle fenêtre" class="picto"><img class="anim-picto" src="./assets/imagesSIte/TwitterX.png" alt="logo de twitter"></a></li>
+                            <li><a target="_blank" href="https://www.facebook.com/?locale=fr_FR" title="lien vers notre page facebook - Nouvelle fenêtre" class="picto "><img class="anim-picto" src="./assets/imagesSIte/Facebook.png" alt="logo de facebook"></a></li>
+                            <li><a target="_blank" href="https://www.tiktok.com/fr/" title="lien vers notre page Tik tok - Nouvelle fenêtre" class="picto"><img class="anim-picto" src="./assets/imagesSIte/TikTok.png" alt="logo de tik tok"></a></li>
+                            <li><a target="_blank" href="https://www.instagram.com/" title="lien vers notre page Instagram - Nouvelle fenêtre" class="picto p"><img class="anim-picto" src="./assets/imagesSIte/Instagram.png" alt="logo d'instagram"></a></li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+            <p class="mentions txt-center c-white"><a href="index.html" title="lien vers les mentions légales du site" class="c-blue">Mentions légales</a>, M'S 2024. Tous droit Réservés. Developpeur : <a target="_blank" href="https://titou1206.github.io/portfolio-AL/" title="lien vers le portfolio du développeur - Nouvelle fenêtre" class="c-blue">AL-DEV</a></p>
+        </div>
+    </footer>
+<script src="./librairies/swiper/swiper-bundle.js"></script>
+<script src="./librairies/leaflet/dist/leaflet.js"></script>
+<script src="js/header-footer.js" defer></script>
+<script src="js/detail-produit.js"></script>
+</body>
+</html>
