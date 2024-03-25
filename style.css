@@ -32,12 +32,12 @@
 [data-style="access"]{
   --font-fam-titre: "Luciole";
   --font-fam-content: "Luciole";
-  --access: url("./assets/imagesSite/access-blue.png");
+  --access: url("assets/imagesSite/access-blue.png");
 }
 [data-style="normal"]{
   --font-fam-titre: "ArchivoBlack";
   --font-fam-content: "Roboto";
-  --access: url("./assets/imagesSite/access-white.png");
+  --access: url("assets/imagesSite/access-white.png");
 }
 
 /* dark mode 
